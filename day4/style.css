@@ -1,0 +1,17 @@
+body {
+    background-color: #eee;
+}
+
+header {
+    height:100px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.img {
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    padding-left: 200px;
+}

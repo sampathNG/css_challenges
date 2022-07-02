@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+.month {
+    padding: 75px 25px;
+    width: 100%;
+    background-color:greenyellow;
+    text-align: center;
+}
+.month ul {
+    list-style: none;
+    /* padding: 0px;
+    margin: 0px; */
+}
+.month ul li {
+    color:blue;
+    font-size:20px;
+}
+.month .prev {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.month .next {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.week {
+    margin:0;
+    background-color:darkgray;
+    padding:8px;
+}
+.week li{
+    list-style: none;
+    display:inline-block;
+    color: black;
+    text-transform: capitalize;
+    width:14%;
+    padding-left:50px;
+}
+.days {
+    margin:0;
+    background-color:gray;
+    padding:8px;
+}
+.days li{
+    list-style: none;
+    display:inline-block;
+    color: black;
+    width:14%;
+    padding-left:50px;
+    padding-bottom: 10px;
+}
